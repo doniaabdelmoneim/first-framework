@@ -1,0 +1,16 @@
+.navbar{
+    background-color: #2C3E50;
+}
+
+.navitem {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+  }
+
+.active:hover{
+   background-color: #1ABC9CE6;
+    border-radius: 4px;
+}

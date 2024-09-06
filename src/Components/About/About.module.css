@@ -1,0 +1,36 @@
+.bgabout{
+    background-color:#1ABC9C;
+    height:75vh;
+}
+
+
+.lines::after{
+    content: "";
+    position: absolute;     
+    width: 5%;
+    height: 0.3rem;
+    left: 45%;
+ bottom: 55%;
+    transform: translateX(-50%);
+    background-color: white;       
+ } 
+ .star{
+    position: absolute;     
+    left: 49%;
+ bottom: 54%;
+ transform: translateX(-50%) ;      
+ } 
+ .lines2::after{
+    content: "";
+    position: absolute;     
+    width: 5%;
+    height: 0.3rem;
+    left: 53%;
+ bottom: 55%;
+    transform: translateX(-50%);
+    background-color: white;       
+ } 
+
+ .div{
+    padding:100px;
+ }

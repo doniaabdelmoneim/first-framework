@@ -1,0 +1,45 @@
+ .lines::after{
+    content: "";
+    position: absolute;     
+    width: 5%;
+    height: 0.3rem;
+    left: 45%;
+ bottom: 74%;
+    transform: translateX(-50%);
+    background-color: black;       
+ } 
+ .star{
+    position: absolute;     
+    left: 49%;
+ bottom: 73%;
+ transform: translateX(-50%) ;      
+ } 
+ .lines2::after{
+    content: "";
+    position: absolute;     
+    width: 5%;
+    height: 0.3rem;
+    left: 53%;
+ bottom: 74%;
+    transform: translateX(-50%);
+    background-color: black;       
+ }  
+
+
+ .green{
+   opacity: 0;
+   transition: all 0.5s;
+   -webkit-transition: all 0.5s;
+   -moz-transition: all 0.5s;
+   -ms-transition: all 0.5s;
+   -o-transition: all 0.5s;
+   cursor: pointer;
+ }
+ .work:hover .green{
+   opacity: 0.95;
+   background-color: #1ABC9CE6;
+ }
+
+
+
+

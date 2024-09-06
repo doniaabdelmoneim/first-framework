@@ -1,0 +1,29 @@
+.lines::after{
+    content: "";
+    position: absolute;     
+    width: 5%;
+    height: 0.3rem;
+    left: 45%;
+ bottom: 74%;
+    transform: translateX(-50%);
+    background-color: black;       
+ } 
+ .star{
+    position: absolute;     
+    left: 49%;
+ bottom: 73%;
+ transform: translateX(-50%) ;      
+ } 
+ .lines2::after{
+    content: "";
+    position: absolute;     
+    width: 5%;
+    height: 0.3rem;
+    left: 53%;
+ bottom: 74%;
+    transform: translateX(-50%);
+    background-color: black;       
+ } 
+ .bg{
+    height: 75vh;
+ }
